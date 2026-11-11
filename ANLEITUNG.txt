@@ -1,0 +1,21 @@
+WERKZEUG-STAFFEL – GITHUB PAGES
+
+1. ZIP-Datei entpacken.
+2. Auf github.com ein neues öffentliches Repository erstellen.
+3. index.html, game.js und comic.css direkt in das Hauptverzeichnis hochladen
+   (Add file > Upload files) und mit Commit changes speichern.
+4. Settings > Pages öffnen.
+5. Source: Deploy from a branch; Branch: main; Ordner: /(root).
+6. Save anklicken. Nach einigen Minuten zeigt GitHub Pages den Spiel-Link an.
+7. Den Link auf dem iPad in Safari öffnen, am besten im Querformat.
+
+Keine Installation und kein eigener Server erforderlich.
+
+SPIELABLAUF
+Starten > Countdown 1, 2, 3 > Werkzeugnamen lesen > Werkzeug holen >
+Nächstes Wort antippen > nächster Spieler im Team.
+Nach dem letzten geholten Werkzeug auf „Letztes Werkzeug da!“ tippen.
+Die kleinere Gesamtzeit einschließlich Zeitstrafen gewinnt.
+
+Unter Einstellungen lassen sich Werkzeugliste und Strafsekunden ändern.
+Diese Einstellungen werden im Browser des jeweiligen Geräts gespeichert.

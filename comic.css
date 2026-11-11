@@ -1,0 +1,69 @@
+/* Ink outlines, halftone print and sun-bleached wasteland colors. */
+:root{--ink:#211d18;--paper:#f3dfaf;--yellow:#ffd23d;--green:#c2d46a;--purple:#b4a0d3}
+body{background-color:#d7b77f;background-image:radial-gradient(#3827151a .8px,transparent .8px),repeating-linear-gradient(113deg,transparent 0 120px,#9b713515 120px 123px);background-size:5px 5px,auto;color:var(--ink);font-family:Arial,Helvetica,sans-serif}
+header{max-width:none;background:var(--ink);border-bottom:5px solid #090908;padding:17px 4%;color:var(--paper);box-shadow:0 5px 0 #a0763a45}
+.brand{font-family:Impact,'Arial Black',sans-serif;font-size:33px;font-style:italic;text-transform:uppercase;letter-spacing:1px;transform:rotate(-2deg);color:var(--yellow);text-shadow:2px 2px #000}
+.brand span{background:var(--yellow);color:var(--ink);border:3px solid #000;border-radius:2px;width:37px;height:38px;text-shadow:none;box-shadow:3px 3px #000;transform:rotate(-7deg)}
+.tag{font-weight:900;color:#e1c68d;letter-spacing:2px;font-size:11px}
+button{border:3px solid var(--ink)!important;border-radius:2px!important;box-shadow:4px 4px 0 var(--ink);font-weight:900!important;transition:transform .1s,box-shadow .1s;text-transform:uppercase;letter-spacing:.5px}
+button:enabled:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--ink)}
+button:disabled{opacity:1;filter:saturate(.35);color:#655f51!important;background:#d4c6a8!important;border-color:#756a54!important;box-shadow:3px 3px #756a54;cursor:default}
+button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #fff;outline-offset:3px;box-shadow:0 0 0 7px var(--ink)}
+.outline{background:#f3dfaf;color:var(--ink);padding:12px 18px;font-size:12px}
+.intro{padding-top:32px;padding-bottom:28px;align-items:center}
+.eyebrow{display:table;background:var(--ink);color:var(--yellow);padding:6px 11px;transform:rotate(-2deg);font-weight:900;letter-spacing:1.5px;font-size:10px}
+h1{font-family:Impact,'Arial Black',sans-serif;text-transform:uppercase;font-style:italic;font-size:clamp(36px,4.7vw,67px);letter-spacing:.3px;line-height:.96;text-shadow:2px 2px #f6e9c7}
+h1 em{color:#ffe05a;-webkit-text-stroke:1.5px var(--ink);text-shadow:3px 3px var(--ink)}
+.intro p{max-width:320px;background:#f4e4c2;border:2px solid var(--ink);box-shadow:4px 4px 0 #211d1833;padding:15px 18px;transform:rotate(1deg);font-size:13px;color:#3c3529;font-weight:600;line-height:1.5}
+.arena{gap:25px;position:relative}
+.arena:after{content:'VS';position:absolute;left:50%;top:43%;transform:translate(-50%,-50%) rotate(-9deg);z-index:2;background:var(--yellow);border:3px solid var(--ink);box-shadow:3px 3px var(--ink);padding:9px 6px;font-family:Impact,'Arial Black',sans-serif;font-style:italic;font-size:22px;pointer-events:none}
+.team{border:4px solid var(--ink);border-radius:4px 13px 3px 9px;box-shadow:7px 7px 0 var(--ink);padding:23px;min-height:410px;background-color:var(--green);background-image:radial-gradient(#211d1820 1px,transparent 1px),linear-gradient(135deg,#ffffff35,transparent 50%);background-size:6px 6px,auto}
+.b{background-color:var(--purple)}
+.team:before{content:'';position:absolute;top:0;right:0;width:55px;height:13px;background:repeating-linear-gradient(-45deg,var(--ink) 0 6px,#ffffff10 6px 12px);pointer-events:none}
+.team-top{border-bottom:3px solid var(--ink);padding-bottom:14px;gap:10px;flex-wrap:wrap}
+.team-name{font-family:Impact,'Arial Black',sans-serif;text-transform:uppercase;font-style:italic;font-size:23px;letter-spacing:.7px;gap:8px}
+.dot,.b .dot{background:var(--ink);border-radius:0;transform:rotate(45deg);width:9px;height:9px}
+.timer{background:var(--ink);color:#ffe49a;padding:7px 10px;font-family:ui-monospace,Menlo,monospace;font-size:23px;font-weight:800;letter-spacing:-1px;box-shadow:3px 3px #ffffff55;transform:rotate(2deg)}
+.wordbox{padding:29px 0 25px;min-height:172px}
+.word{font-family:Impact,'Arial Black',sans-serif;letter-spacing:.2px;font-size:clamp(30px,4vw,56px);font-style:italic;line-height:1.12;color:#fff6d9;-webkit-text-stroke:1px var(--ink);text-shadow:3px 3px 0 var(--ink)}
+.sub,.b .sub{background:#f9edcd;border:2px solid var(--ink);padding:5px 12px;color:var(--ink);font-weight:700;font-size:12px;transform:rotate(-2deg);box-shadow:2px 2px #211d1840}
+.progress{height:11px;border:2px solid var(--ink);border-radius:0;background:#f7e8c7;margin-bottom:16px}
+.fill,.b .fill{background:repeating-linear-gradient(-45deg,#27251c 0 7px,#635f40 7px 10px)}
+.next,.b .next{background:var(--yellow);color:var(--ink);min-height:61px;padding:0 18px;font-size:17px}
+.next span:last-child{font-size:29px;line-height:1}
+.penalty,.b .penalty{background:#b94431;color:#fff2d2;margin-top:13px;min-height:50px;font-size:13px;box-shadow:3px 3px var(--ink)}
+.penalty-info{color:var(--ink);font-size:11px;font-weight:700;margin-top:12px}
+.controls{padding-top:27px;padding-bottom:23px}
+.status{font-size:12px;color:#3c3529;line-height:1.5}.status strong{font-size:17px;color:var(--ink);font-weight:900;margin-bottom:2px}
+.start{background:var(--yellow);color:var(--ink);padding:19px 32px;min-width:240px;transform:rotate(-1deg);font-size:18px}
+.rules{border-top:3px solid var(--ink);padding-top:18px;color:#3b3328;font-size:11px;gap:15px;font-weight:600}.rules b{background:var(--ink);color:var(--yellow);padding:4px 5px;font-family:ui-monospace,monospace}
+.footnote{font-size:10px;color:#514532;font-weight:700;text-transform:uppercase;letter-spacing:1px}
+dialog{background-color:var(--paper);background-image:radial-gradient(#49381f12 .8px,transparent .8px);background-size:5px 5px;border:4px solid var(--ink);border-radius:3px;box-shadow:10px 10px var(--ink);padding:28px}
+dialog::backdrop{background:#17140de0}dialog h2{font-family:Impact,'Arial Black',sans-serif;text-transform:uppercase;letter-spacing:.3px;font-style:italic;font-size:34px}dialog p{color:#50432e}dialog label{font-weight:900}textarea,.penalty-setting{border:3px solid var(--ink);border-radius:2px;background:#fff5db;color:var(--ink);font-size:16px}textarea{font-size:16px}.dialog-actions{flex-wrap:wrap}.dialog-actions .start{font-size:14px}.dialog-actions .outline{font-size:12px}.error{color:#a32318;font-weight:700}
+.countdown{background-color:#edbd48;background-image:repeating-conic-gradient(from 10deg at 50% 50%,#211d1815 0deg 10deg,transparent 10deg 20deg);border:12px solid var(--ink)}
+.countdown strong{font-family:Impact,'Arial Black',sans-serif;font-size:210px;color:#fff2c1;-webkit-text-stroke:5px var(--ink);text-shadow:10px 10px var(--ink);font-style:italic;transform:rotate(-7deg)}
+.countdown p{background:var(--ink);color:var(--yellow);padding:10px 17px;letter-spacing:1px;font-weight:900;text-align:center;margin:20px}
+.result-icon{display:inline-block;background:var(--yellow);border:3px solid var(--ink);box-shadow:4px 4px var(--ink);padding:0 14px;transform:rotate(-9deg);font-size:44px}
+.score{border-bottom:2px solid var(--ink);gap:12px}.score small{color:#594a33;line-height:1.4}.winner{background:var(--yellow);border:3px solid var(--ink);border-radius:0;margin-top:10px;padding:15px 10px;box-shadow:3px 3px var(--ink)}
+@media(max-width:650px){header{padding:14px 4%}.brand{font-size:25px}.brand span{width:30px;height:32px;font-size:24px;margin-right:5px}.outline{padding:11px 9px;font-size:10px}.intro{padding:25px 4% 22px}.intro p{max-width:none;margin-top:17px;padding:10px 13px;font-size:12px}.eyebrow{font-size:9px}h1{font-size:43px;letter-spacing:.2px}.arena{gap:15px;padding:0 4%}.arena:after{font-size:15px;padding:6px 3px;border-width:2px}.team{padding:13px 10px;border-width:3px;box-shadow:4px 4px var(--ink);min-height:390px;border-radius:2px 8px 2px 5px}.team-name{font-size:18px;letter-spacing:0}.timer{display:table;font-size:19px;margin-top:10px;padding:5px 6px}.word{font-size:clamp(25px,5.8vw,37px);text-shadow:2px 2px var(--ink);-webkit-text-stroke:.7px var(--ink)}.wordbox{min-height:160px;padding:23px 0}.sub,.b .sub{font-size:10px;padding:5px}.next,.b .next{font-size:12px;padding:0 8px;letter-spacing:0;min-height:60px}.next span:last-child{font-size:21px}.penalty,.b .penalty{font-size:10px;letter-spacing:0;min-height:50px;padding:5px}.penalty-info{font-size:10px;line-height:1.5}.controls{gap:17px}.status strong{font-size:16px}.start{min-width:200px}.rules{line-height:1.8;gap:14px}dialog{padding:22px}dialog h2{font-size:29px}.countdown strong{font-size:180px}.countdown p{font-size:10px}}
+@media(min-width:700px) and (min-height:900px){.team{min-height:52vh}.intro{padding-top:38px;padding-bottom:32px}}
+/* Raised arcade keys: beveled faces and a solid extruded base. */
+button{
+ --key-top:#fff0b7;--key-bottom:#d5b980;--key-side:#8d6834;
+ background-color:var(--key-bottom);
+ background-image:linear-gradient(180deg,#ffffff55 0%,#ffffff05 45%,#211d1812 100%),linear-gradient(180deg,var(--key-top),var(--key-bottom));
+ box-shadow:inset 0 3px 0 #ffffffa6,inset 3px 0 0 #ffffff40,inset -3px -4px 0 #211d1838,0 5px 0 var(--key-side),0 8px 0 var(--ink),3px 11px 0 #211d1840;
+ text-shadow:0 1px 0 #ffffff66;
+ transform:translateY(-3px);
+ transition:transform .09s ease-out,box-shadow .09s ease-out;
+}
+.start,.next,.b .next{--key-top:#ffe879;--key-bottom:#efb524;--key-side:#a36a16}
+.start{transform:translateY(-3px) rotate(-1deg)}
+.penalty,.b .penalty{--key-top:#d66c4c;--key-bottom:#a83525;--key-side:#6c241d;background-color:var(--key-bottom);background-image:linear-gradient(180deg,#ffffff22,transparent 45%,#211d1822),linear-gradient(180deg,var(--key-top),var(--key-bottom));box-shadow:inset 0 3px 0 #ffcf9e80,inset 3px 0 0 #ffffff22,inset -3px -4px 0 #411c1c60,0 5px 0 var(--key-side),0 8px 0 var(--ink),3px 11px 0 #211d1840;text-shadow:0 2px 0 #5d241c}
+button:enabled:active{transform:translateY(3px);box-shadow:inset 0 1px 0 #ffffff66,inset 2px 2px 4px #211d1830,inset -2px -2px 0 #211d1830,0 1px 0 var(--key-side),0 2px 0 var(--ink),1px 4px 0 #211d1830}
+.start:enabled:active{transform:translateY(3px) rotate(-1deg)}
+button:disabled{background-image:linear-gradient(180deg,#e3d8c0,#c3b79b)!important;box-shadow:inset 0 2px 0 #ffffff66,inset -2px -2px 0 #756a5430,0 2px 0 #94856b,0 4px 0 #756a54;transform:translateY(0);text-shadow:none}
+button:focus-visible{outline:3px solid white;outline-offset:5px}
+.penalty,.b .penalty{margin-top:20px}.penalty-info{margin-top:17px}.dialog-actions{gap:17px;margin-top:25px;padding-bottom:6px}
+@media(hover:hover){button:enabled:hover{filter:brightness(1.06)}}
+@media(prefers-reduced-motion:reduce){button{transition:none}}
